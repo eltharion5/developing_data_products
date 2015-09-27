@@ -1,0 +1,45 @@
+presentation
+========================================================
+author: eltharion5
+date: 
+
+   A shiny app to analyse the "mtcars" dataset
+
+Describing the data
+========================================================
+
+The mtcars dataset was used as a project support for the regression class.
+
+
+The folllowing shiny app is taking the results from the regression class result and is adding interactivity.
+
+
+Given a set of parameters, it predicts the mpg valuue
+
+
+Describing the data
+========================================================
+
+```{r}
+library('datasets')
+data(mtcars)
+names(mtcars)
+```
+The dataset is made of 11 variables, including the one we want to predict, mpg.
+
+Describing the data
+========================================================
+Among the eleven variables, we will only take three to predict the value of mpg.
+
+- wt
+- qsec
+- am
+
+Conclusion
+========================================================
+
+The shiny app adds some user interactivity to the conclusion of the regression project.
+
+The shiny app can be found there:
+
+https://eltharion5.shinyapps.io/shiny
